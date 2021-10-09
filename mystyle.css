@@ -4,7 +4,7 @@ body {
   }
   
   h1{
-    color: navy;
+
     margin: 35px 35px 50px 50px;
     font-size: 65px;
     padding-top: 30mm;
@@ -27,7 +27,7 @@ body {
       text-align: left;
       text-decoration: dashed;
       display: contents;
-      font-family: 'Roboto', sans-serif;
+      
   }
 
   h2{
@@ -37,17 +37,17 @@ body {
     border-color: gray;
     border-radius: 1px;
     display: block;
-    font-family: 'Roboto', sans-serif;
+    
   }
   nav{
       height:2cm;
       width:2cm;
-      font-family: 'Roboto', sans-serif;
+      
   }
   h3{
       max-width: 20cm;
       max-height: 3cm;
-      font-family: 'Roboto', sans-serif;
+      
   }
   label{
       font-size: 13px;
@@ -76,4 +76,14 @@ body {
     body {
       background-color: lightgreen;
     }
+  }
+  *{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1,h2{
+    color:slateblue;
+  }
+  a[href^="#"] {
+    background-color: yellowgreen;
   }
